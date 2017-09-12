@@ -70,6 +70,13 @@ set showmode
 set showcmd
 " ステータスラインの右側にカーソルの位置を表示する
 set ruler
+" 行数表示
+set number
+" 構文の色分け
+syntax on
+" colorScheme
+" autocmd ColorScheme * highlight LineNr ctermfg=226
+" colorschem hybrid
 
 "----------------------------------------------------------
 " 入力 
